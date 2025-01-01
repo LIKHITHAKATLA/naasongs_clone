@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Download Page</title>
+  <style>
+    body {
+      /* font-family: Arial, sans-serif; */
+      text-align: center;
+      margin: 0;
+      padding: 0;
+      /* background-color: #f9f9f9; */
+    }
+
+    .container {
+      width: 300px;
+      margin: 50px auto;
+      padding: 20px;
+      border: 1px solid #ddd;
+      background-color: white;
+      border-radius: 8px;
+      /* box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); */
+    }
+
+    .logo {
+      display: inline-block;
+      background-color: #000;
+      color: #fff;
+      padding: 5px 10px;
+      font-weight: bold;
+      font-size: 18px;
+      position: relative;
+    }
+
+    .logo span {
+      background-color: #a3c544;
+      color: #000;
+      padding: 2px 6px;
+      position: absolute;
+      top: 0;
+      right: -10px;
+      transform: translateX(50%);
+      border-radius: 3px;
+    }
+
+    .title {
+      margin: 20px 0;
+      font-size: 18px;
+      color: #333;
+    }
+
+    .audio-player {
+      margin: 10px 0;
+    }
+
+    .download-button {
+      display: block;
+      background-color: #a3c544;
+      color: white;
+      text-decoration: none;
+      padding: 10px 15px;
+      font-size: 16px;
+      font-weight: bold;
+      border-radius: 4px;
+      margin: 20px 0;
+      
+    }
+
+    .download-button:hover {
+      background-color: #8ab339;
+    }
+
+    .note {
+      font-size: 14px;
+      color: #555;
+      margin-top: 10px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="logo">
+      iSongs<span>.info</span>
+    </div>
+    <div class="title">
+        Inthenemo Inthenemo Song <br> Download
+    </div>
+    <div class="audio-player">
+      <audio controls style="width: 100%;">
+        <source src="Inthenemo Inthenemo.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+      </audio>
+    </div>
+    <a href="Inthenemo Inthenemo.mp3" class="download-button" download="Inthenemo Inthenemo.mp3">
+      <img src="download.png" alt="Download Icon" style="vertical-align: middle; margin-right: 5px;"> 
+      Download
+    </a>
+    <div class="note">
+      Close the Pop-Ad & press the download button again
+    </div>
+  </div>
+</body>
+</html>
